@@ -11,7 +11,7 @@ header{
 }
 .banner{
     width: 100%;
-    min-height: 720px;
+    min-height: 45em;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     /* background-size: contain; */
