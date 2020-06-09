@@ -1,5 +1,5 @@
 body {
-/* background-color: grey; */
+background-color: #f8f9fa;
 /* background-image: url("../img/banner.jpg"); */
 }
 .nav-item{
@@ -11,13 +11,26 @@ header{
 }
 .banner{
     width: 100%;
-    min-height: 45em;
+    /* max-height: 109vh; */
     background-image: url("../img/banner.jpg");
     background-size: cover;
     /* background-size: contain; */
 }
+.call{
+    margin-top: 6.25em;
+    margin-bottom: 21.8em;
+}
+.bgimg{
+    /* background-image: url("../img/banner.jpg"); */
+}
+#testimonials{
+    margin-top:6.25em;
+}
+.sectionspace{
+    margin-top:6.25em;
+}
 section{
-    
+    /* min-height: 109vh; */
 }
 .logo{
     height: 50px;
@@ -25,4 +38,18 @@ section{
 }
 .cta{
     color: white;
+    font-weight: bolder;
+}
+.custom{
+    padding: 2.375rem;
+    background-color:white;
+}
+.custom2{
+    /* padding: 1rem; */
+}
+@media only screen and (max-width: 750px) {
+    .call{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
