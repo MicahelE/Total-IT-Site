@@ -43,6 +43,9 @@ header{
     background-position: 30% 30%;
     /* padding-bottom: 15em; */
 }
+.testimonials p{
+    color: gray;
+}
 .morespace{
     margin-bottom: 8em;
 }
