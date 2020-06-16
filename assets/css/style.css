@@ -31,14 +31,22 @@ header{
 .bgimg{
     /* background-image: url("../img/banner.jpg"); */
 }
-.testimonials{
-    margin-top:6.25em;
-    /* padding-bottom: 15em; */
-}
+
 .sectionspace{
     margin-top:3.25em;
 
 }
+.testimonials{
+    margin-top:6.25em;
+    background-image: url("../img/Path\ 15.png");
+    /* background-size: contain; */
+    background-position: 30% 30%;
+    /* padding-bottom: 15em; */
+}
+.morespace{
+    margin-bottom: 8em;
+}
+
 #aboutus h1{
     font-weight: bold;
 }
@@ -82,7 +90,7 @@ section{
     font-weight: bolder;
 }
 .custom{
-    padding: 2.375rem;
+    padding: 3.375rem;
     background-color:white;
 
 }
