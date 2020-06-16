@@ -5,6 +5,11 @@ background-color: #f8f9fa;
 .nav-item{
     color: black;
     font-weight: bold;
+    font-size: smaller;
+    padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black
 }
 header{
     /* height: 70px; */
@@ -20,21 +25,57 @@ header{
     margin-top: 6.25em;
     margin-bottom: 21.8em;
 }
+.border{
+    border-width:0.1875rem !important;
+}
 .bgimg{
     /* background-image: url("../img/banner.jpg"); */
 }
-#testimonials{
+.testimonials{
     margin-top:6.25em;
+    /* padding-bottom: 15em; */
 }
 .sectionspace{
+    margin-top:3.25em;
+
+}
+#aboutus h1{
+    font-weight: bold;
+}
+#aboutus{
+    padding-top: 9em;
+}
+.expertise{
+    font-weight: bold;
+    color: gray;
+}
+.mobile p{
+    font-weight: bold;
+    color: gray;
+}
+.aldelia p{
+    font-weight: bold;
+    /* color: gray; */
+}
+#project{
+    background-color: antiquewhite;
+    /* margin-top:1.25em; */
+    padding-bottom: 15em;
+}
+.contacts{
     margin-top:6.25em;
 }
+.coolborder{
+    border-radius: 0.5rem;
+}
+
 section{
     /* min-height: 109vh; */
 }
 .logo{
-    height: 50px;
-    /* width: auto; */
+    height: 89px;
+    width: auto;
+    margin: -29px -29px -29px -8px;
 }
 .cta{
     color: white;
@@ -43,9 +84,20 @@ section{
 .custom{
     padding: 2.375rem;
     background-color:white;
+
 }
+
+.btncarousel{
+    color: black;
+    border:1px solid;
+    /* padding: 6px 21px; */
+}
+
 .custom2{
     /* padding: 1rem; */
+}
+.resize{
+    max-width: 145%;
 }
 @media only screen and (max-width: 750px) {
     .call{
@@ -53,3 +105,18 @@ section{
         margin-bottom: auto;
     }
 }
+.link{
+    color: inherit;
+}
+.makebold{
+    font-weight: bolder;
+}
+.customcolor{
+    color: white;
+}
+
+/* .footer-brand-logos a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+} */
