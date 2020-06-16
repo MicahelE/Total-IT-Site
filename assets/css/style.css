@@ -45,6 +45,7 @@ header{
 }
 .testimonials p{
     color: gray;
+    font-weight: bolder;
 }
 .morespace{
     margin-bottom: 8em;
