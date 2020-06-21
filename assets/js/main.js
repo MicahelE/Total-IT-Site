@@ -1,3 +1,5 @@
+
+
 $('#carouselExampleControls').on('slide.bs.carousel', function(e) {
     if(e.relatedTarget.id == 'secondSlide'){
         setTimeout(function () {

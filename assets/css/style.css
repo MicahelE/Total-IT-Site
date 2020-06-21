@@ -1,3 +1,15 @@
+
+
+html,body
+{
+    /* width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; */
+    overflow-x: hidden; 
+}
+
+
 body {
 background-color: #f8f9fa;
 /* background-image: url("../img/banner.jpg"); */
@@ -15,9 +27,9 @@ header{
     /* height: 70px; */
 }
 .banner{
-    width: 100%;
+    width: auto;
     /* max-height: 109vh; */
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/hi.png");
     background-size: cover;
     /* background-size: contain; */
 }
@@ -35,6 +47,34 @@ header{
 .sectionspace{
     margin-top:3.25em;
 
+}
+
+.stat__count {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 4.4rem;
+    line-height: 1;
+    /* color: #FFFFFF; */
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stats h5 {
+    font-family: "montserrat-semibold", sans-serif;
+    margin-top: 1.8rem;
+    /* color: #ffffff; */
+    font-size: 1.8rem;
+    line-height: 1.333;
+    position: relative;
+}
+.stats__col {
+    margin: 5.4rem 0;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid black;
 }
 .testimonials{
     margin-top:6.25em;
@@ -55,7 +95,21 @@ header{
     font-weight: bold;
 }
 #aboutus{
-    padding-top: 4em;
+    padding-top: 1.5em;
+}
+.display-1{
+    border-bottom: 0.5px solid white;
+}
+.about-desc {
+    /* font-size: 2.4rem; */
+    
+    line-height: 1.75;
+    text-align: justify;
+    
+}
+.client-logo {
+    /* max-height: 154px; */
+    margin-left: 1.5rem;
 }
 .expertise{
     font-weight: bold;
