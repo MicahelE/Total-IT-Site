@@ -29,7 +29,7 @@ header{
 .banner{
     width: auto;
     /* max-height: 109vh; */
-    background-image: url("../img/hi.png");
+    /* background-image: url("../img/hi.png"); */
     background-size: cover;
     /* background-size: contain; */
 }
@@ -48,7 +48,11 @@ header{
     margin-top:3.25em;
 
 }
-
+#whatwedo .card-body, .card-title{
+color: gray;
+font-weight: bolder;
+    
+}
 .stat__count {
     font-family: "montserrat-bold", sans-serif;
     font-size: 4.4rem;
@@ -64,7 +68,7 @@ header{
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
     /* color: #ffffff; */
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1.333;
     position: relative;
 }
@@ -74,7 +78,7 @@ header{
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 1px solid black;
+    /* border-right: 1px solid black; */
 }
 .testimonials{
     margin-top:6.25em;
@@ -96,6 +100,9 @@ header{
 }
 #aboutus{
     padding-top: 1.5em;
+    color: white;
+    background-color: #020814;
+    padding-bottom: 1em;
 }
 .display-1{
     border-bottom: 0.5px solid white;
@@ -125,11 +132,15 @@ header{
 }
 #project{
     background-color: antiquewhite;
-    /* margin-top:1.25em; */
+    margin-top:0;
     padding-bottom: 15em;
 }
 .contacts{
-    margin-top:6.25em;
+    margin-top:0;
+    /* background-image: url("../img/contact.png"); */
+    /* background-size: cover; */
+    background-color:#e8e9ed;
+    /* background-position: left; */
 }
 .coolborder{
     border-radius: 0.5rem;
@@ -181,8 +192,82 @@ section{
     color: white;
 }
 
+
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
 /* .footer-brand-logos a {
     text-decoration: none;
     display: inline-block;
     padding: 0 20px;
 } */
+
+.banner .carousel-item {
+    height: 42.688em;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @media only screen and (max-width: 750px) {
+    .banner .carousel-item {
+        height: auto;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+}
