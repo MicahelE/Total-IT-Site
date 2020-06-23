@@ -271,3 +271,8 @@ ul, ol {
         background-size: cover;
       }
 }
+
+/* services page */
+.serveimg{
+    max-height: 19.4em;
+}
