@@ -34,7 +34,7 @@ header{
     /* background-size: contain; */
 }
 .call{
-    margin-top: 6.25em;
+    margin-top: 10.25em;
     margin-bottom: 21.8em;
 }
 .border{
@@ -135,6 +135,9 @@ font-weight: bolder;
     background-color: antiquewhite;
     margin-top:0;
     padding-bottom: 15em;
+}
+#secondSlide{
+    margin-bottom: 45px;
 }
 .contacts{
     margin-top:0;
