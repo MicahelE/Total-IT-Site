@@ -66,6 +66,17 @@ header{
      font-weight: bolder;
         
     }
+
+    #whatwedo {
+        background: url(../img/Mask\ Group\ 10.png);
+        background-size: cover;
+    }
+
+    .service_page {
+        background: url(../img/Mask\ Group\ 10.png);
+        background-size: cover;
+    }
+
     #whatwedo .card-body{
 
 /* color: gray; */
