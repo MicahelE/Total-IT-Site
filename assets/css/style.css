@@ -327,6 +327,12 @@ ul, ol {
 .imggap{
     margin-top: 2.25em;
 }
+
+.ext_btn {
+    height: 60px!important;
+    width: 400px;
+}
+
 .float_object {
     animation-name: floating;
     animation-duration: 3s;
@@ -336,6 +342,18 @@ ul, ol {
 
 #software {
 color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+}
+
+.pink_bg {
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+
+}
+
+.blue_bg {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
 }
 /* carousel for projects */
 /* #myCarousel .carousel-item .mask {
