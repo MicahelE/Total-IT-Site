@@ -51,7 +51,7 @@ header{
     margin-bottom: 21.8em;
 }
 .border{
-    border-width:0.1875rem !important;
+    /* border-width:0.1875rem !important; */
 }
 .bgimg{
     /* background-image: url("../img/banner.jpg"); */
