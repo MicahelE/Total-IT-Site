@@ -160,6 +160,7 @@ font-weight: bolder;
     background-color:#e8e9ed;
     /* background-position: left; */
 }
+.greyout{background-color:#e8e9ed;}
 .coolborder{
     border-radius: 0.5rem;
 }
