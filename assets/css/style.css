@@ -101,8 +101,8 @@ font-weight: bolder;
 #aboutus{
     padding-top: 1.5em;
     color: white;
-    background-color: #525a61;
-    /* background-color: #020814; */
+    /* background-color: #525a61; */
+    background-color: #020814;
     padding-bottom: 1em;
 }
 .display-1{
@@ -114,6 +114,8 @@ font-weight: bolder;
     line-height: 1.75;
     text-align: justify;
     
+}
+.brands{background-color: #f8f9fa;
 }
 .client-logo {
     /* max-height: 154px; */
@@ -237,7 +239,7 @@ ul, ol {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .nav-list li a:before {
-    content: "\f14f";
+    /* content: "\f14f"; */
     font: 400 21px/1 "Material Design Icons";
     color: #4d6de6;
     display: inline-block;
@@ -248,7 +250,18 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
-
+/* .footnav a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+} */
 /* .footer-brand-logos a {
     text-decoration: none;
     display: inline-block;
@@ -281,6 +294,13 @@ ul, ol {
     max-height: 19.4em;
 }
 
+.gap{
+    margin-top: 5em;
+}
+
+.imggap{
+    margin-top: 2.25em;
+}
 /* carousel for projects */
 /* #myCarousel .carousel-item .mask {
     position: absolute;
