@@ -74,7 +74,7 @@ font-weight: bolder;
     position: relative;
 }
 .stats__col {
-    margin: 5.4rem 0;
+    margin: 5.4rem 1.5em;
     padding: 0 2rem;
     position: relative;
     overflow: hidden;
@@ -82,7 +82,7 @@ font-weight: bolder;
     /* border-right: 1px solid black; */
 }
 .shadowed{
-    box-shadow: 0 8px 6px -6px white;
+    box-shadow: 0 4px 6px -4px white;
 }
 .testimonials{
     margin-top:6.25em;
@@ -110,7 +110,7 @@ font-weight: bolder;
     padding-bottom: 1em;
 }
 
-.display-1{
+.display1{
     border-bottom: 0.5px solid white;
 }
 .about-desc {
