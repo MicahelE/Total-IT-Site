@@ -72,6 +72,8 @@ header{
 /* font-weight: bolder; */
     
 }
+#whatwedo .card-text{font-size: 13px;}
+
 .stat__count {
     font-family: "montserrat-bold", sans-serif;
     /* font-size: 4.4rem; */
@@ -113,7 +115,9 @@ header{
 .testimonials p{
     /* color: gray;
     font-weight: bolder; */
+    font-size: smaller;
 }
+.card-body .name{color: red;}
 .morespace{
     margin-bottom: 8em;
 }
@@ -176,8 +180,14 @@ header{
 .greyout{background-color:#e8e9ed;}
 .coolborder{
     border-radius: 0.5rem;
+    
+    /* font-size: xx-small; */
 }
-
+.navbar-light .navbar-nav  .coolborder {
+    /* color: red; */
+    /* padding: 3px; */
+    /* margin-top: 1em; */
+}
 section{
     /* min-height: 109vh; */
 }
