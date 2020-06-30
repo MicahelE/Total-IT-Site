@@ -151,11 +151,11 @@ header{
     color: gray;
 }
 .mobile p{
-    font-weight: bold;
-    color: gray;
+    /* font-weight: bold;
+    color: gray; */
 }
 .aldelia p{
-    font-weight: bold;
+    /* font-weight: bold; */
     /* color: gray; */
 }
 #project{
