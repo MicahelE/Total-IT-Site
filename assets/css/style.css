@@ -17,7 +17,7 @@ background-color: #f8f9fa;
 }
 .nav-item{
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: smaller;
     padding-right: 10px;
 }
@@ -61,9 +61,15 @@ header{
     margin-top:3.25em;
 
 }
-#whatwedo .card-body, .card-title{
-color: gray;
-font-weight: bolder;
+.card-title{
+    /* color: gray;  */
+     font-weight: bolder;
+        
+    }
+    #whatwedo .card-body{
+
+/* color: gray; */
+/* font-weight: bolder; */
     
 }
 .stat__count {
@@ -95,7 +101,7 @@ font-weight: bolder;
     /* border-right: 1px solid black; */
 }
 .shadowed{
-    box-shadow: 0 4px 6px -4px white;
+    box-shadow: 0 4px 6px -4px black;
 }
 .testimonials{
     margin-top:6.25em;
@@ -105,8 +111,8 @@ font-weight: bolder;
     /* padding-bottom: 15em; */
 }
 .testimonials p{
-    color: gray;
-    font-weight: bolder;
+    /* color: gray;
+    font-weight: bolder; */
 }
 .morespace{
     margin-bottom: 8em;
@@ -117,9 +123,9 @@ font-weight: bolder;
 }
 #aboutus{
     padding-top: 1.5em;
-    color: white;
+    /* color: white; */
     /* background-color: #525a61; */
-    background-color: #020814;
+    background-color: white;
     padding-bottom: 1em;
 }
 
@@ -133,11 +139,12 @@ font-weight: bolder;
     text-align: justify;
     
 }
-.brands{background-color: #f8f9fa;
-}
+/* .brands{background-color: #f8f9fa; */
+
 .client-logo {
     /* max-height: 154px; */
-    margin-left: 1.5rem;
+    margin-left: 4.5rem;
+    /* margin-right: 1px; */
 }
 .expertise{
     font-weight: bold;
@@ -319,6 +326,16 @@ ul, ol {
 
 .imggap{
     margin-top: 2.25em;
+}
+.float_object {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#software {
+color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
 }
 /* carousel for projects */
 /* #myCarousel .carousel-item .mask {
@@ -503,3 +520,8 @@ ul, ol {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 } */
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
