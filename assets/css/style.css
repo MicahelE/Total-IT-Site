@@ -1,4 +1,17 @@
+@font-face {
+    font-family: Lora Regular;
+    src: url(../fonts/lora/Lora-Regular.ttf);
+}
 
+@font-face {
+    font-family: Lora Bold;
+    src: url(../fonts/lora/Lora-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
 
 html,body
 {
@@ -7,7 +20,7 @@ html,body
     margin: 0px;
     padding: 0px; */
     overflow-x: hidden; 
-    font-family: 'Rubik';
+    font-family: 'Lora Regular';
 }
 
 
@@ -86,8 +99,7 @@ header{
 #whatwedo .card-text{font-size: 13px;}
 
 .stat__count {
-    font-family: "montserrat-bold", sans-serif;
-    /* font-size: 4.4rem; */
+    font-family: "Montserrat Bold", sans-serif;
     line-height: 1;
     /* color: #FFFFFF; */
     position: relative;
@@ -114,7 +126,7 @@ header{
     /* border-right: 1px solid black; */
 }
 .shadowed{
-    box-shadow: 0 4px 6px -4px black;
+    box-shadow: 0 4px 6px -4px darkgray;
 }
 .testimonials{
     margin-top:6.25em;
@@ -377,7 +389,7 @@ color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
 
 }
 
-.navbar-brand {
+/* .navbar-brand {
     visibility: hidden;
 }
 
@@ -389,7 +401,7 @@ color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
     .logo_middle {
         display: none;
     }
-}
+} */
 /* carousel for projects */
 /* #myCarousel .carousel-item .mask {
     position: absolute;
