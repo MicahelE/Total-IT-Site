@@ -379,7 +379,7 @@ color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
 
 }
 
-.navbar-brand {
+/* .navbar-brand {
     visibility: hidden;
 }
 
@@ -391,7 +391,7 @@ color: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
     .logo_middle {
         display: none;
     }
-}
+} */
 /* carousel for projects */
 /* #myCarousel .carousel-item .mask {
     position: absolute;
