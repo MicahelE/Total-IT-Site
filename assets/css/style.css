@@ -64,7 +64,7 @@ header{
     margin-bottom: 21.8em;
 }
 .border{
-    border-width:0.1875rem !important;
+    /* border-width:0.1875rem !important; */
 }
 .bgimg{
     /* background-image: url("../img/banner.jpg"); */
@@ -96,6 +96,8 @@ header{
 /* font-weight: bolder; */
     
 }
+#whatwedo .card-text{font-size: 13px;}
+
 .stat__count {
     font-family: "Montserrat Bold", sans-serif;
     line-height: 1;
@@ -136,7 +138,9 @@ header{
 .testimonials p{
     /* color: gray;
     font-weight: bolder; */
+    font-size: smaller;
 }
+.card-body .name{color: red;}
 .morespace{
     margin-bottom: 8em;
 }
@@ -157,10 +161,15 @@ header{
 }
 .about-desc {
     /* font-size: 2.4rem; */
-    
     line-height: 1.75;
     text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 75px;
     
+}
+
+.about-stats {
+    margin-left: 25px!important;
 }
 /* .brands{background-color: #f8f9fa; */
 
@@ -201,6 +210,13 @@ header{
 }
 .coolborder{
     border-radius: 0.5rem;
+    
+    /* font-size: xx-small; */
+}
+.navbar-light .navbar-nav  .coolborder {
+    /* color: red; */
+    /* padding: 3px; */
+    /* margin-top: 1em; */
 }
 
 .navbar-brand {
