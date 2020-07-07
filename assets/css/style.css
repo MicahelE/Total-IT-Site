@@ -191,12 +191,12 @@ header{
     /* color: gray; */
 }
 #project{
-    background-color: antiquewhite;
+    background-color: #65abfb;
     margin-top:0;
     padding-bottom: 15em;
 }
 #secondSlide{
-    margin-bottom: 45px;
+    /* margin-bottom: 45px; */
 }
 .contacts{
     margin-top:0;
